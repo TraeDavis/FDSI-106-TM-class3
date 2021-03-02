@@ -1,0 +1,90 @@
+html,
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-image: url("/img/architecture-3121009_1920.jpg");
+    position: relative;
+}
+h1{
+    padding: 2% 0;
+    color: rgb(238, 173, 113);
+}
+i{
+    cursor: pointer;
+    vertical-align: middle;
+}
+.fa-trash-alt{
+    pointer-events: none;
+}
+#imp-star,
+.imp-task{
+    font-size: 1.6rem;
+}
+#imp-star.fas,
+.imp-task.fas{
+    color: rgb(0, 110, 255);
+}
+.color-label{
+    color: rgb(255, 255, 255);
+    background-color: rgb(65, 64, 64);
+}
+.control{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    border: 3px solid rgb(181, 182, 182);
+    padding: 1.2rem;
+    background-color: #e2c0a481;
+    border-radius: 1rem;
+}
+@media(min-width:768px){
+    .content{
+        flex-direction: row;
+    }
+}
+#list{
+    flex: 4;
+    display: flex;
+    flex-direction: column;
+}
+
+#capture{
+    flex: 3;
+}
+.new-task{
+    display: flex;
+    justify-content: space-between;
+    background-color: #f5f5f5;
+    padding: .5rem;
+    width: 95%;
+    border-radius: 1rem;
+    box-shadow: 0px 5px 5px black;
+}
+.btnDelete{
+     height: 100%;
+}
+.task-container,
+.date-icon{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    margin-left: 4%;
+}
+.details-container{
+    display: flex;
+    justify-content: flex-end;
+    
+}
+#btnDetails{
+    margin-bottom: 4%;
+    margin-right: 3%;
+}
+.important-container{
+    display: flex;
+    align-items: center;
+}
