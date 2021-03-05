@@ -84,7 +84,6 @@ function deleteTaskMarkImportant(e){
     }
     // Mark task as important
     if(item.classList[0] === 'imp-task'){
-        
         item.classList.toggle('fas');
     }
 }
