@@ -85,7 +85,7 @@ function displayTask(task){
    
 
     // Create the syntax
-    let syntax = `<div class="new-task mb-3" style="background-color: ${task.color};"> 
+    let syntax = `<div class="new-task mb-3" style="background-color: ${task.alertText};"> 
     
                     <div onclick="" class="important-container">
                      <i id="test" class="${task.important} far fa-star"></i>
